@@ -13,6 +13,7 @@ AUTHOR_EMAIL = 'aerispaha@gmail.com'
 install_requires = [
     'numpy',
     'plotly',
+    'pandas'
     ]
 
 setup(name='pyplan',
