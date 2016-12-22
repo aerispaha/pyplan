@@ -59,7 +59,7 @@ def implementation_sequences(all_options, sequences, title, benefit_col='Elimina
         title=title,
         legend = {'x':0.05, 'y':0.9},
         xaxis = dict(title='Capital Cost (Millions)',tickprefix='$'),
-        yaxis = dict(title='Parcels with Flood Risk {}'.format(benefit_col))
+        yaxis = dict(title='Parcels with Flood Risk {}'.format(benefit_col)),
         # height = 700,
     )
 
